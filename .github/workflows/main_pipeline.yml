@@ -20,3 +20,6 @@ jobs:
       run: npm install
     - name: Running Unit Tests
       run: npm run test:unit
+      # Add a custom step to the build script in order to display my softuni username.
+    - name: Display SoftUni username
+      run: echo "plamenbranyakov"
